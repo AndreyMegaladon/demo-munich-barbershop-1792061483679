@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munich Barbershop - Startseite</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-neutral-950 text-neutral-100 font-sans antialiased">
+    <header class="sticky top-0 z-50 bg-black/90 backdrop-blur-md border-b border-neutral-800">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="index.html" class="text-2xl font-bold tracking-wider text-[#D4AF37]">MUNICH BARBERSHOP</a>
+            <nav class="hidden md:flex items-center space-x-1">
+                <a href="index.html" class="bg-amber-500 text-white rounded-lg px-4 py-2 text-sm font-medium">Startseite</a>
+                <a href="about.html" class="hover:bg-neutral-800 rounded-lg px-4 py-2 text-sm font-medium transition">Über uns</a>
+                <a href="services.html" class="hover:bg-neutral-800 rounded-lg px-4 py-2 text-sm font-medium transition">Menü</a>
+                <a href="gallery.html" class="hover:bg-neutral-800 rounded-lg px-4 py-2 text-sm font-medium transition">Galerie</a>
+                <a href="booking.html" class="hover:bg-neutral-800 rounded-lg px-4 py-2 text-sm font-medium transition">Termin buchen</a>
+                <a href="contacts.html" class="hover:bg-neutral-800 rounded-lg px-4 py-2 text-sm font-medium transition">Kontakt</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="relative min-h-[80vh] flex items-center justify-center bg-cover bg-center px-6" style="background-image: url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1920&q=80')">
+        <div class="absolute inset-0 bg-black/70"></div>
+        <div class="relative z-10 max-w-4xl text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 tracking-tight">Munich Barbershop</h1>
+            <p class="text-lg md:text-xl text-neutral-300 mb-10 max-w-2xl mx-auto">Dein Experte für erstklassige Haarschnitte und traditionelle Rasur in der Holzstraße, München.</p>
+            <a href="booking.html" class="bg-[#D4AF37] hover:bg-[#b8972f] text-black px-8 py-4 rounded-xl text-lg font-semibold shadow-2xl transition inline-block">Termin buchen</a>
+        </div>
+    </section>
+
+    <main class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="mb-6 text-sm text-neutral-400">
+            <span>Startseite</span>
+        </div>
+
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold mb-4">Ausgewählte Leistungen</h2>
+            <p class="text-neutral-400">Entdecke unsere beliebtesten Behandlungen</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
+            <div class="bg-neutral-900 border border-neutral-800 rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden p-6">
+                <span class="text-xs font-semibold uppercase tracking-wider text-[#D4AF37]">Haarschnitt</span>
+                <h3 class="text-xl font-bold mt-2 mb-2">Herrenhaarschnitt</h3>
+                <p class="text-neutral-400 text-sm mb-4">Waschen, Schneiden und professionelles Styling</p>
+                <span class="text-lg font-bold text-neutral-200">Auf Anfrage</span>
+            </div>
+            <div class="bg-neutral-900 border border-neutral-800 rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden p-6">
+                <span class="text-xs font-semibold uppercase tracking-wider text-[#D4AF37]">Bart</span>
+                <h3 class="text-xl font-bold mt-2 mb-2">Bartpflege & Konturen</h3>
+                <p class="text-neutral-400 text-sm mb-4">Präzises Trimmen und Formen des Barts</p>
+                <span class="text-lg font-bold text-neutral-200">Auf Anfrage</span>
+            </div>
+            <div class="bg-neutral-900 border border-neutral-800 rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden p-6">
+                <span class="text-xs font-semibold uppercase tracking-wider text-[#D4AF37]">Rasur</span>
+                <h3 class="text-xl font-bold mt-2 mb-2">Hot-Towel-Rasur</h3>
+                <p class="text-neutral-400 text-sm mb-4">Traditionelle Nassrasur mit warmer Kompresse</p>
+                <span class="text-lg font-bold text-neutral-200">Auf Anfrage</span>
+            </div>
+        </div>
+
+        <div class="mb-20">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Das sagen unsere Kunden</h2>
+                <p class="text-neutral-400">Echte Bewertungen von Google Maps</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-neutral-900 border border-neutral-800 p-6 rounded-2xl">
+                    <p class="text-neutral-300 italic mb-4">"Great barber shop with a rustic ambience. Highly recommended for competent staff and sensible shaving equipment. Affordable prices compared to other trendy shops in the area."</p>
+                    <div class="font-semibold text-sm text-[#D4AF37]">- Google User</div>
+                </div>
+                <div class="bg-neutral-900 border border-neutral-800 p-6 rounded-2xl">
+                    <p class="text-neutral-300 italic mb-4">"Customers rave about the talent and skill of the barbers, with one reviewer mentioning how Jessica worked wonders with their hair."</p>
+                    <div class="font-semibold text-sm text-[#D4AF37]">- Google User</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gradient-to-r from-neutral-900 to-neutral-800 border border-neutral-800 rounded-3xl p-10 text-center">
+            <h2 class="text-3xl font-bold mb-4">Bereit für einen neuen Look?</h2>
+            <p class="text-neutral-300 mb-8 max-w-xl mx-auto">Besuche uns in der Holzstraße im Glockenbachviertel oder vereinbare direkt einen Termin.</p>
+            <a href="booking.html" class="bg-[#D4AF37] hover:bg-[#b8972f] text-black px-8 py-4 rounded-xl text-lg font-semibold shadow-xl transition inline-block">Jetzt Termin sichern</a>
+        </div>
+    </main>
+
+    <footer class="bg-neutral-900 border-t border-neutral-800 text-neutral-400 py-12">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4">Munich Barbershop</h3>
+                <p class="text-sm">Dein Experte für erstklassige Haarschnitte und traditionelle Rasur im Herzen von München.</p>
+            </div>
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4">Kontakt</h3>
+                <p class="text-sm mb-2">Holzstraße 21, 80469 München</p>
+                <p class="text-sm mb-2">Telefon: +49 89 46229924</p>
+                <p class="text-sm">E-Mail: info@munich-barbershop.de</p>
+            </div>
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4">Öffnungszeiten</h3>
+                <p class="text-sm mb-2">Montag - Freitag: 09:00 – 19:00</p>
+                <p class="text-sm mb-2">Samstag: 08:30 – 18:00</p>
+                <p class="text-sm">Sonntag: Geschlossen</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
